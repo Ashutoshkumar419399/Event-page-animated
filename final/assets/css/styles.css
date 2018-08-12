@@ -1,0 +1,128 @@
+.projects-clean {
+	color:#313437;
+}
+
+.projects-clean p {
+	color:#7d8285;
+}
+
+.projects-clean h2 {
+	font-weight:bold;
+	margin-bottom:40px;
+	padding-top:40px;
+	color:inherit;
+}
+
+@media (max-width:767px) {
+	.projects-clean h2 {
+		margin-bottom:25px;
+		padding-top:25px;
+		font-size:24px;
+	}
+}
+
+.projects-clean .intro {
+	font-size:16px;
+	max-width:500px;
+	margin:0 auto;
+}
+
+.projects-clean .intro p {
+	margin-bottom:0;
+}
+
+.projects-clean .projects {
+	padding-bottom:40px;
+}
+
+.projects-clean .item {
+	text-align:center;
+	padding-top:50px;
+	min-height:425px;
+}
+
+.projects-clean .item .name {
+	font-weight:bold;
+	margin-top:28px;
+	margin-bottom:8px;
+	color:inherit;
+}
+
+.projects-clean .item .description {
+	font-size:15px;
+	margin-top:15px;
+	margin-bottom:0;
+}
+
+
+body {
+	margin:0;
+	font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+	font-size:1rem;
+	font-weight:400;
+	line-height:1.5;
+	/*color:#212529;*/
+	text-align:left;
+	background-color:#fff;
+}
+
+
+html {
+  font-family:sans-serif;
+  line-height:1.15;
+  -webkit-text-size-adjust:100%;
+  -ms-text-size-adjust:100%;
+  -ms-overflow-style:scrollbar;
+  -webkit-tap-highlight-color:transparent;
+}
+
+/* Slideout outer button */
+#slideout {
+	position: fixed;
+	z-index: 1;
+	top: 150px;
+	left: 0;
+	padding: 25px 0;
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+	-o-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-border-radius: 0 5px 5px 0;
+	-moz-border-radius: 0 5px 5px 0;
+	border-radius: 0 5px 5px 0;
+}
+/* Slideout inner widget area */
+#slideout_inner {
+	position: fixed;
+	top: 145px;
+	left: -320px;
+	background: #678FED;
+	width: 300px;
+	padding: 25px;
+	height: 300px;
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+	-o-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-border-radius: 0 10px 10px 0;
+	-moz-border-radius: 0 10px 10px 0;
+	border-radius: 0 10px 10px 0;
+}
+/* Hover alignment */
+#slideout:hover {
+	left: 300px;
+}
+#slideout:hover #slideout_inner {
+	left: 0;
+}
+
+.vertical{
+    writing-mode:tb-rl;
+    -webkit-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform:rotate(90deg);
+    transform: rotate(90deg);
+    white-space:nowrap;
+    display:block;
+}
